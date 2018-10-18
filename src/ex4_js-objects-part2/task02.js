@@ -2,5 +2,7 @@
 
 // Написать функцию, которая создает пустой объект, но без прототипа.
 function makeNewObj(){
-    var newObj1 = Object.create(null)
+    var newObj1 = Object.create(null);
+    return newObj1;
 }
+console.log(makeNewObj());
