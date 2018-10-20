@@ -5,10 +5,11 @@ var obj = {a:1, b:2};
 var obj1 = Object.create(obj);
 obj1.c = 3;
 var f = function(obj, key){
-    for (var key in obj){
-        if (!obj.hasOwnProperty(key)){
+        if (key in obj && !obj.hasOwnProperty(key)){
             console.log(key);
         }
-    }
 }
 f(obj1);
+f(obj1, 'b');
+f(obj1, 'c');
+f(obj1, 'd');
