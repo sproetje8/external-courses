@@ -12,7 +12,7 @@ function adaptStringToNum(str, num){
         else if (str.length < (num - 3)){
             console.log('string is too short');
         }
-        else if (str.length == (num - 3)){
+        else if (str.length === (num - 3)){
             console.log(str + '...');
         }
         else {
