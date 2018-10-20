@@ -2,11 +2,12 @@
 
 // Написать функцию, которая принимает строку и возвращает эту же строку, но с заглавным первым символом каждого слова.
 function capitalizeFirstSymbols(str){
-    str = str.split(' ');
-    for (var i = 0, j = str.length; i < j ; i++){
-        str[i] = str[i][0].toUpperCase() + str[i].substr(1);
+    var str1 = str.split(' ');
+    var i;
+    for ( i = 0, j = str1.length; i < j ; i++){
+        str1[i] = str1[i][0].toUpperCase() + str1[i].substr(1);
     }
-    return str.join(" ");
+    return str1.join(" ");
 }
 console.log(capitalizeFirstSymbols('amanda christina orwell'));
 console.log(capitalizeFirstSymbols('123'));
