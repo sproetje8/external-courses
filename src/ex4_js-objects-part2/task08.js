@@ -4,7 +4,6 @@
 function toLowerCamelCase(str){
     var words = str.toLowerCase().split(' ');
     var i;
-    var adaptedChar;
     for ( i = 1 ; i < words.length ; i++){
         words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
     } 
