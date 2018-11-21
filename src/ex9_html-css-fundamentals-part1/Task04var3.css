@@ -1,0 +1,40 @@
+.first {
+    width: 400px;
+    height: 300px;
+    float: left;
+    background-color: #26C089;
+  }
+  
+  .second {
+    width: 10px;
+    height: 300px;
+    background-color: #85DEBE;
+    float: left;
+    margin-top: 10px;
+  }
+  
+  .third {
+    width: 390px;
+    height: 10px;
+    background-color: #85DEBE;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 10px;
+  }
+  
+  .fourth {
+    width: 10px;
+    height: 300px;
+    background-color: #C0EDDD;
+    float: left;
+    margin-top: 20px;
+  }
+  
+  .fifth {
+    width: 390px;
+    height: 10px;
+    background-color: #C0EDDD;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 20px;
+  }

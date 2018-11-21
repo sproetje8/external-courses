@@ -1,0 +1,45 @@
+button {  
+  border: 2px solid grey;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #e5ebee 51%,#d7dee3 52%,#b3b4b5 100%,#f6f8f9 100%);
+  box-shadow: 1px 1px 4px grey
+}
+
+.content {
+  border: 12px, solid, darkgray;
+  padding: 3px 3px 3px 3px;
+  text-fill: dark-grey;
+  font-style: bold;
+  width: 250px;
+  vertical-align: middle;
+}
+
+.star {
+  color: grey;
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 48px;
+}
+
+.checkout {
+  font-size: 24px;
+  font-weight: bold;
+  color: #615f63;
+  vertical-align: middle;
+  padding: 3px 14px;
+}
+
+.outer {
+  position: relative;
+  width: 294px;
+  height: 74px;
+  background-color: lightgrey;
+  margin: auto;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  box-shadow: 4px 4px 10px grey, 0 0 0 3px grey;
+}
