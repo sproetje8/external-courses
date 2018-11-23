@@ -1,0 +1,40 @@
+table {
+    padding: 5px;
+    font-family: arial;
+    font-size: 14px;
+    color: #697D92;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .header {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+  }
+  
+  .name {
+    text-transform: capitalize;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  .phone {
+    text-align: center;
+  }
+  
+  #long, .email, .debt {
+    padding: 15px;
+  }
+  
+  tr:nth-child(odd){
+    background-color: #E7ECF3;
+  }
+  
+  tr:nth-child(even){
+    background-color: #F1F5F9;
+  }
+  
+  tr:hover{
+    background-color: #E1E4E8;
+  }
