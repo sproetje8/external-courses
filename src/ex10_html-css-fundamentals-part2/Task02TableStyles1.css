@@ -26,15 +26,3 @@ table {
   #long, .email, .debt {
     padding: 15px;
   }
-  
-  tr:nth-child(odd){
-    background-color: #E7ECF3;
-  }
-  
-  tr:nth-child(even){
-    background-color: #F1F5F9;
-  }
-  
-  tr:hover{
-    background-color: #E1E4E8;
-  }
